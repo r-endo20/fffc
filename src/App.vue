@@ -1,14 +1,20 @@
 <template>
   <div id="app">
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <b-navbar-brand href="#">のくたーんのでーた</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+          <b-nav-item>v0.2.1</b-nav-item>
+          <b-nav-item href="/">Home</b-nav-item>
+          <b-nav-item href="/battle">Battle</b-nav-item>
+          <b-nav-item href="/gatherer">Gatherer</b-nav-item>
+        </b-navbar-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="/about">About</b-nav-item>
+          <b-nav-item href="/history">History</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
